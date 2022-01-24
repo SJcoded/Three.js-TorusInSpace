@@ -45,6 +45,10 @@ function addStar() {
 
 Array(200).fill().map(()=> addStar())
 
+// const spaceTexture = new THREE.TextureLoader().load('tunnelToTheLight.jpg')
+// const spaceTexture = new THREE.TextureLoader().load('fog.jpg')
+// scene.background = spaceTexture
+
 
 function animate () {
   requestAnimationFrame( animate )
